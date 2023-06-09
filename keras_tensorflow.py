@@ -3,6 +3,7 @@ import pandas as pd
 from keras.models import Sequential
 from keras.layers import Dense
 from matplotlib import pyplot as plt
+import tensorflow
 from sklearn.model_selection import train_test_split
 
 url = 'https://www4.stat.ncsu.edu/~boos/var.select/diabetes.tab.txt'
